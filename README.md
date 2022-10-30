@@ -1,8 +1,7 @@
 # TIL
 > Today I Learned
 
-
-A collection of concrete writeups of small things I learn daily.
+Description
 
 
 _1 TILs and counting..._
