@@ -345,7 +345,7 @@ public class VerifyMethod {
         verify(memberService, only()).getMember();
     }
 }
-```
+``` 
 
 ### BDD Style API  
 Mockito provides the **BDDMockito** class to write test code in BDD style.  
