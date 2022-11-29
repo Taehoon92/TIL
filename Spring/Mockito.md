@@ -348,11 +348,30 @@ public class VerifyMethod {
 ```
 
 ### BDD Style API  
-Mockito 
+Mockito provides the **BDDMockito** class to write test code in BDD style.  
+You can change the existing method as below,
+* when -> given  
+* verify -> then  
+```java
+@Test
+void testVerifyTimes() {
 
+    //given
+    //when -> given 
+    //when(memberService.getMember()).thenReturn(null);
+    given(memberService.getMember()).thenReturn(null);
 
+    //when
+    memberService.getMember();
+    memberService.getMember();
 
-
-
-***reference***  
+    //then
+    //verify -> then
+    //verify(memberService, times(2)).getMember();
+    then(memberService, times(2)).getMember();
+}
+```
+  
+  
+##### reference
 https://effortguy.tistory.com/143
