@@ -4,14 +4,14 @@
 Description
 
 
-_2 TILs and counting..._
+_4 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [Auto Increment problem in Unit Test](Spring/AutoIncrementInTestDB.md) - Fri Nov 11 20:47:13 2022 +1100
-- [Markdown 기본 문법](ETC/Markdown-basic-syntex.md) - Mon Oct 31 11:04:45 2022 +1100
+- [Mockito](Spring/Mockito.md) - Tue Nov 29 21:11:26 2022 +1100
+- [Using H2 DB in Test Environment](Spring/DataJPATestDbSetting.md) - Sat Nov 19 22:14:15 2022 +1100
 
 ### Categories
 
@@ -23,6 +23,8 @@ _2 TILs and counting..._
 
 ### [Spring](#Spring)
 - [Auto Increment problem in Unit Test](Spring/AutoIncrementInTestDB.md)
+- [Using H2 DB in Test Environment](Spring/DataJPATestDbSetting.md)
+- [Mockito](Spring/Mockito.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
