@@ -223,7 +223,7 @@ If port 3306 is opened then you don't need to do below processes.
 * Add inbound rule  
 Add inbound rule using `iptables` command. `ens3` is a type of network interface.
 ```
-$ sudo iptables -I INPUT 5 -i ens3 -p tcp --dport 3306 -m state --state NEW, ESTABLISHED -j ACCEPT
+$ sudo iptables -I INPUT 5 -i ens3 -p tcp --dport 3306 -m state --state NEW,ESTABLISHED -j ACCEPT
 ```
 After then, you can see  check lists of `iptables` 
 ```
