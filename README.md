@@ -4,14 +4,14 @@
 Description
 
 
-_6 TILs and counting..._
+_7 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [DB CRUD - using JDBC](Spring/DB-crud-jdbc.md) - Fri May 26 16:23:30 2023 +1000
 - [Type Converter](Spring/typeConverter.md) - Fri May 19 11:47:23 2023 +1000
-- [Setup MariaDB in Ubuntu (Oracle Cloud)](Cloud/MariaDbSetup.md) - Sat Apr 29 20:32:29 2023 +1000
 
 ### Categories
 
@@ -27,6 +27,7 @@ _6 TILs and counting..._
 
 ### [Spring](#Spring)
 - [Auto Increment problem in Unit Test](Spring/AutoIncrementInTestDB.md)
+- [DB CRUD - using JDBC](Spring/DB-crud-jdbc.md)
 - [Using H2 DB in Test Environment](Spring/DataJPATestDbSetting.md)
 - [Mockito](Spring/Mockito.md)
 - [Type Converter](Spring/typeConverter.md)
