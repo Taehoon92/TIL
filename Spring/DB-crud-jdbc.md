@@ -22,7 +22,7 @@ public abstract class ConnectionConst {
 
 Connect DB using JDBC
 ```java
-public class DBConnectUtil {
+public class DBConnectionUtil {
 
     public static Connection getConnection() {
         try {
