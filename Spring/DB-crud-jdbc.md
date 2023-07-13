@@ -69,9 +69,9 @@ public class MemberRepository  {
             con = getConnection();
             pstmt = con.prepareStatement(sql);
             //set value(memberId) in first "?" 
-            pstmt.getString(1, member.getMemberId);
+            pstmt.setString(1, member.getMemberId);
             //set value(money) in second "?"
-            pstmt.getInt(2, member.getMoney());
+            pstmt.setInt(2, member.getMoney());
             //The SQL prepared through the statement is delivered to the DB through the connection
             pstmt.executeUpdate();
             return member;
